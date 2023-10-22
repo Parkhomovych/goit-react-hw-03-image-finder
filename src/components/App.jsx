@@ -15,17 +15,7 @@ export class App extends Component {
     loader: false,
     btnLoader: false,
   };
-  // componentDidUpdate(pP, pS) {
-  //   if (
-  //     pS.currentPage !== this.state.currentPage ||
-  //     pS.search !== this.state.search
-  //   ) {
-  //     this.setState({ loader: true });
-  //     this.setState({ btnLoader: false });
-  //     this.setState({ image: [] });
-  //     this.setState({ currentPage: 1 });
-  //   }
-  // }
+
   searchImg = async evt => {
     evt.preventDefault();
     try {
